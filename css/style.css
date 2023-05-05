@@ -43,6 +43,13 @@ header{
     color: #000;
     font-weight: 100;
 }
+.logo:hover{
+    background: #2d0357;
+}
+.logoRed{
+    width: 100px;
+    padding: 15px;
+}
 .menu{
     display: flex;
 }
@@ -177,3 +184,5 @@ header{
     width: 430px;
     height: 720px;
 }
+
+@media(max-width:)
