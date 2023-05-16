@@ -62,7 +62,7 @@ header{
     display: flex;
 }
 .menu li{
-    list-style:circle;
+    list-style:none;
     margin: 10px;
 }
 .menu li a{
@@ -183,16 +183,27 @@ header{
     background-repeat: no-repeat;
     background-color: #D8D1E1;
 }
-.imgGif{
+.imgGif,.imgGif,.imgGif{
     width: 430px;
 }
 .imgNos{
     width: 430px;
     height: 720px;
 }
+.imgGifMedio{
+    display: none;
+}
 
 @media(max-width: 768px){
-    
+    .imgGifMedio{
+        display: block;
+    }
+    .cont1{
+        display: none;
+    }
+    .imgAses2{
+        width: 300px;
+    }
     .checkbtnMostrar,
     .checkbtnOcultar{
         display: block;
@@ -235,7 +246,7 @@ header{
         width: 450px;
     }
     .titulo{
-        font-size: 15px;
+        font-size: 25px;
     }
     .grid-2{
         display: grid;

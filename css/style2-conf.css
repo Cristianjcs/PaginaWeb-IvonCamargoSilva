@@ -27,7 +27,15 @@
     width: 400px;
     height: 300px;
 }
-
+@media(max-width: 768px){
+    .slider-frame ul{
+        display:block;
+    }
+    .imgConf2{
+        width: 400px;
+        margin-right: 35px;
+    }
+}
 
 
 
