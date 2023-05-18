@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/img/Fondo1.png);
+    background-image: url();
 }
 
 header{
@@ -55,8 +55,8 @@ header{
     background: #2d0357;
 }
 .logoRed{
-    width: 100px;
-    padding: 15px;
+    width: 50px;
+    padding: 1px;
 }
 .menu{
     display: flex;
@@ -112,6 +112,7 @@ header{
 .grid-2{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
+
 }
 .grid-3{
     display: grid;
@@ -119,10 +120,10 @@ header{
     text-align: center;
 }
 
-.titulo-principal{
+.tituloPrincipal{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #2d0357;
-    font-size:35px;
+    font-size:45px;
 }
 .titulo{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -130,20 +131,36 @@ header{
     font-size:45px;
     text-align: center;
 }
-.titulo-2{
-    font-size: 20px;
+.titulo2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2d0357;
+    font-size:35px;
+    text-align: center;
     
 }
 .formacion-1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
-    
 }
 
+.imagenBannerP{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 5px;
+}
+.BannerNos{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 5px;
+}
 .imagen-banner{
     width: 100%;
-    height: 220px;
+    height: 450px;
     margin-bottom: 5px;
+}
+.imagenBanner1M,
+.imagenBanner2M{
+    display:none;
 }
 .img-portafolio{
     width: 300px;
@@ -156,7 +173,7 @@ header{
     line-height: 40px;
 }
 
-.imgNot{
+.imgNos{
     width: 600px;
 }
 .imgAses{
@@ -195,6 +212,25 @@ header{
 }
 
 @media(max-width: 768px){
+    .imagenBanner1M{
+        display: block;
+        width: 100%;
+    }
+    .imagenBanner2M{
+        display: block;
+        width: 100%;
+        height: 180px;
+    }
+    .imagenBannerP{
+        display: none;
+    }
+    .imagen-banner{
+        width: 100%;
+        height: 250px;
+    }
+    .tituloPrincipal{
+        font-size: 25px;
+    }
     .imgGifMedio{
         display: block;
     }
@@ -237,7 +273,7 @@ header{
     .imagen-banner{
        width: 35vh;
     }
-    .checkbtn{
+    .checkbtnMostrar{
         display: block;
         align-self: auto;
     }
@@ -262,6 +298,12 @@ header{
     .titulo-2{
         margin: 10px;
     }
-   
+   .pa1{
+    font-size: 20px;
+    text-align:center;
+   }
+   ul li{
+    list-style:circle;
+   }
 
 }
