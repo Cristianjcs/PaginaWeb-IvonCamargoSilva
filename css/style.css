@@ -1,309 +1,309 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-}
-body{
+  }
+  body {
     background-image: url();
-}
-
-header{
+  }
+  
+  header {
     width: 100%;
     height: 10vh;
     background-size: cover;
     background-position: center;
-}
-.checkbtnMostrar,
-.checkbtnOcultar{
+  }
+  .checkbtnMostrar,
+  .checkbtnOcultar {
     display: none;
-}
-#check{
+  }
+  #check {
     display: none;
-}
-.nav{
+  }
+  .nav {
     position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 120px;
-    transition: all 0.5s ease;   
-}
-.nav.active{
-    background: #D8D1E1;
+    transition: all 0.5s ease;
+  }
+  .nav.active {
+    background: #d8d1e1;
     padding-right: 120px;
-}
-.nav.active .logo,
-.nav.active a{
+  }
+  .nav.active .logo,
+  .nav.active a {
     color: #000;
-    
-}
-.nav.active a:hover{
+  }
+  .nav.active a:hover {
     padding: 5px 10px;
     background: #2d0357;
     color: #fff;
     border-radius: 15px;
-}
-.logo{
+  }
+  .logo {
     font-size: 25px;
     color: #000;
     font-weight: 100;
-}
-.logo:hover{
+  }
+  .logo:hover {
     background: #2d0357;
-}
-.logoRed{
+  }
+  .logoRed {
     width: 50px;
     padding: 1px;
-}
-.menu{
+  }
+  .menu {
     display: flex;
-}
-.menu li{
-    list-style:none;
+  }
+  .menu li {
+    list-style: none;
     margin: 10px;
-}
-.menu li a{
+  }
+  .menu li a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
-    transition:  all 0.5s ease;
-}
-
-.menu li a:hover{
+    transition: all 0.5s ease;
+  }
+  
+  .menu li a:hover {
     padding: 5px 10px;
     background: #2d0357;
     color: #fff;
     border-radius: 15px;
-}
-
-.scrol{
+  }
+  
+  .scrol {
     height: 100%;
-}
-.lf-1{
+  }
+  .lf-1 {
     text-decoration: none;
     color: #000;
-}
-
-.img-logo{
+  }
+  
+  .img-logo {
     width: 150px;
-}
-.img-logo-peq{
+  }
+  .img-logo-peq {
     width: 40px;
-}
-.d-1{
+  }
+  .d-1 {
     padding: 50px;
-}
-.d-2{
-    padding:50px;
-}
-
-.navbar{
-    margin-top:-5%;
+  }
+  .d-2 {
+    padding: 50px;
+  }
+  
+  .navbar {
+    margin-top: -5%;
     margin-bottom: 1%;
-}
-
-.grid-1{
+  }
+  
+  .grid-1 {
     display: grid;
     grid-template-columns: 20% 70%;
-}
-.grid-2{
+  }
+  .grid-2 {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-
-}
-.grid-3{
+  }
+  .grid-3 {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     text-align: center;
-}
-
-.tituloPrincipal{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .tituloPrincipal {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: #2d0357;
-    font-size:45px;
-}
-.titulo{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+  }
+  .titulo {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: #2d0357;
-    font-size:45px;
+    font-size: 45px;
     text-align: center;
-}
-.titulo2{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .titulo2 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: #2d0357;
-    font-size:35px;
+    font-size: 35px;
     text-align: center;
-    
-}
-.formacion-1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .formacion-1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 15px;
-}
-
-.imagenBannerP{
+  }
+  
+  .imagenBannerP {
     width: 100%;
     height: 450px;
     margin-bottom: 5px;
-}
-.BannerNos{
+  }
+  .BannerNos {
     width: 100%;
     height: 450px;
     margin-bottom: 5px;
-}
-.imagen-banner{
+  }
+  .imagen-banner {
     width: 100%;
     height: 450px;
     margin-bottom: 5px;
-}
-.imagenBanner1M,
-.imagenBanner2M{
-    display:none;
-}
-.img-portafolio{
+  }
+  .imagenBanner1M,
+  .imagenBanner2M {
+    display: none;
+  }
+  .img-portafolio {
     width: 300px;
     border-radius: 5%;
-}
-
-
-.texto{
-    font-size: 1.40rem;
+  }
+  
+  .texto {
+    font-size: 1.4rem;
     line-height: 40px;
-}
-
-.imgNos{
+  }
+  
+  .imgNos {
     width: 600px;
-}
-.imgAses{
+  }
+  .imgAses {
     width: 300px;
-}
-.imgAses2{
+  }
+  .imgAses2 {
     width: 500px;
-}
-
-.pa1{
+  }
+  
+  .pa1 {
     font-size: 1.35rem;
     text-align: justify;
-}
-
-.box1{
+  }
+  .tarj1 {
+    padding: 25px;
+  }
+  
+  .box1 {
     background-color: red;
-}
-.cont1{
+  }
+  .cont1 {
     width: 100%;
     min-height: 400px;
     overflow: hidden;
-    background-position: 15%  80%;
+    background-position: 15% 80%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #D8D1E1;
-}
-.imgGif,.imgGif,.imgGif{
+    background-color: #d8d1e1;
+  }
+  .imgGif,
+  .imgGif,
+  .imgGif {
     width: 430px;
-}
-.imgNos{
+  }
+  .imgNos {
     width: 430px;
     height: 720px;
-}
-.imgGifMedio{
+  }
+  .imgGifMedio {
     display: none;
-}
-
-@media(max-width: 768px){
-    .imagenBanner1M{
-        display: block;
-        width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .imagenBanner1M {
+      display: block;
+      width: 100%;
     }
-    .imagenBanner2M{
-        display: block;
-        width: 100%;
-        height: 180px;
+    .imagenBanner2M {
+      display: block;
+      width: 100%;
+      height: 180px;
     }
-    .imagenBannerP{
-        display: none;
+    .imagenBannerP {
+      display: none;
     }
-    .imagen-banner{
-        width: 100%;
-        height: 250px;
+    .imagen-banner {
+      width: 100%;
+      height: 250px;
     }
-    .tituloPrincipal{
-        font-size: 25px;
+    .tituloPrincipal {
+      font-size: 25px;
     }
-    .imgGifMedio{
-        display: block;
+    .imgGifMedio {
+      display: block;
     }
-    .cont1{
-        display: none;
+    .cont1 {
+      display: none;
     }
-    .imgAses2{
-        width: 300px;
+    .imgAses2 {
+      width: 300px;
     }
     .checkbtnMostrar,
-    .checkbtnOcultar{
-        display: block;
+    .checkbtnOcultar {
+      display: block;
     }
-.menu{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background:#D8D1E1;  
-    right: -100%;
-    top: 0;
-    text-align: center;
-    padding: 100px 0px;
-    z-index: 100;
-    transition: 0.8s;
-}
-.menu{
-    display: block;
-    padding: 20px;
-}
-.checkbtnOcultar{
-    position: absolute;
-    top: 40px;
-    right: 40px;
-}
-#check:checked~.menu{
-    right: 0;
-}
-
-
-    .imagen-banner{
-       width: 35vh;
+    .menu {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #d8d1e1;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 100px 0px;
+      z-index: 100;
+      transition: 0.8s;
     }
-    .checkbtnMostrar{
-        display: block;
-        align-self: auto;
+    .menu {
+      display: block;
+      padding: 20px;
     }
-   
-    .imagen-banner{
-        width: 450px;
+    .checkbtnOcultar {
+      position: absolute;
+      top: 40px;
+      right: 40px;
     }
-    .titulo{
-        font-size: 25px;
+    #check:checked ~ .menu {
+      right: 0;
     }
-    .grid-2{
-        display: grid;
-        grid-template-columns: 100%;
-        text-align: center;
-        align-content: center;
+  
+    .imagen-banner {
+      width: 35vh;
     }
-    .grid-3{
-        display: grid;
-        grid-template-columns: 100%;
-        text-align: center;
+    .checkbtnMostrar {
+      display: block;
+      align-self: auto;
     }
-    .titulo-2{
-        margin: 10px;
+  
+    .imagen-banner {
+      width: 450px;
     }
-   .pa1{
-    font-size: 20px;
-    text-align:center;
-   }
-   ul li{
-    list-style:circle;
-   }
-
-}
+    .titulo {
+      font-size: 25px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 100%;
+      text-align: center;
+      align-content: center;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 100%;
+      text-align: center;
+    }
+    .titulo-2 {
+      margin: 10px;
+    }
+    .pa1 {
+      font-size: 20px;
+      text-align: center;
+    }
+    ul li {
+      list-style: circle;
+    }
+  }
+  
